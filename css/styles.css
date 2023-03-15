@@ -1,0 +1,63 @@
+body{
+    background-color: #B8E2F2;
+}
+.container {
+    border-radius: 3rem;
+    width: 700px;
+    height: 400px;
+    background-color: #77C3EC;
+    position:absolute;
+    top:30%;
+    left:30%;
+    margin-top:-50px; 
+    margin-left:-100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+}
+.item1 {
+ display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+    margin: 20px;
+}
+#strtGame {
+    display: flex;
+    background-color: white;
+    width: 5rem;
+    justify-self: center;
+    
+    justify-content: center;
+    margin: 10px;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 7rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+#strtGame:hover {
+background-color: lightgray;
+border: white solid 1px;
+color: black;
+}
+header{
+    margin-left: 90%;
+    background-color: lightgray;
+    border-radius: 1rem;
+    border: black solid 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#labelTimer{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    
+}
+#timer, span {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
